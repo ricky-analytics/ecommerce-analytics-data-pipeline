@@ -58,3 +58,26 @@ Le tableau de bord est conçu de manière descendante pour répondre aux besoins
 
 ** [CLIQUEZ ICI POUR ACCÉDER AU DASHBOARD INTERACTIF LIVE]**
 🔗 https://datastudio.google.com/reporting/d2c92754-68d4-49bb-856e-b8f0b792d9e3
+
+## 📁 Structure du Dépôt GitHub
+```text
+├── data/                         # Fichiers CSV bruts (Exemples limités)
+├── sql/
+│   ├── staging/                  # Scripts de la couche de staging
+│   ├── intermediate/             # Scripts de calculs financiers et métiers
+│   └── marts/                    # Tables finales prêtes pour la BI
+├── notebooks/
+│   └── advanced_statistical_analysis.ipynb   # Notebook Python (RFM, Pearson, LTV)
+├── images/                       # Captures d'écran du Dashboard et graphiques
+└── README.md                     # Documentation du projet
+
+
+🚀 Comment exécuter ce projet ?
+Clonez ce dépôt.
+
+Configurez un environnement de Sandbox gratuit sur Google BigQuery et importez les fichiers du dossier /data.
+Exécutez les scripts SQL dans l'ordre (staging -> intermediate -> marts).
+Lancez le Notebook Jupyter pour régénérer les analyses statistiques et la segmentation RFM.
+
+
+***
