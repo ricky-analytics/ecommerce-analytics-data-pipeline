@@ -5,7 +5,7 @@ Ce projet simule l'architecture, la modélisation et l'analyse statistique d'une
 L'infrastructure reproduit fidèlement un écosystème d'entreprise moderne utilisant l'approche moderne de l'Analytics Engineering.
 
 ## 🛠️ Tech Stack & Architecture
-- * **Génération & Statistiques :** Python (Pandas, Numpy, Scipy, Matplotlib, Seaborn)
+* **Génération & Statistiques :** Python (Pandas, Numpy, Scipy, Matplotlib, Seaborn)
 * **Data Warehouse :** Google BigQuery (Sandbox Environment)
 * **Modélisation & Transformation :** SQL (Architecture inspirée de dbt - Couches Staging, Intermediate, Marts)
 * **Business Intelligence :** Looker Studio (Live Interactive Dashboard)
