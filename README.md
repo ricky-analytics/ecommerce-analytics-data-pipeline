@@ -23,3 +23,6 @@ The pipeline follows a strict ELT (Extract, Load, Transform) architecture:
 ## 🚀 Business Impact & Insights Discovered
 - **The Swiss Border Bug:** Isolated a severe operational anomaly in Switzerland where a 10% delivery failure rate due to custom clearing issues was destroying product margin.
 - **Black Friday ROI Trap:** Proved that while revenue spiked during late November, the aggressive -30% discount codes actually reduced the brand's overall net margin.
+
+Link Dashboard Looker Studio : 
+https://datastudio.google.com/reporting/d2c92754-68d4-49bb-856e-b8f0b792d9e3
